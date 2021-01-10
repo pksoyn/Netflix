@@ -1,1 +1,5 @@
 @import "mainhome.css";
+body {
+  background-color: black;
+  width: 100%;
+}

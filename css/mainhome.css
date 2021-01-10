@@ -1,11 +1,83 @@
-.status-bar {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.status-bar__title span {
+  font-size: 40px;
   margin-left: 20px;
+  color: red;
+}
+.main_bar {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.status-bar {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  font-size: 1rem;
+
+  background: linear-gradient(
+    rgba(20, 20, 20, 1) 10%,
+    rgba(20, 20, 20, 0.75) 25%,
+    rgba(20, 20, 20, 0.5) 50%,
+    rgba(20, 20, 20, 0.25) 75%,
+    rgba(20, 20, 20, 0) 100%
+  );
+}
+.first__menu {
+  margin-left: 10px;
+}
+.status-bar__menu:first-child {
+  width: 10%;
+}
+.status-bar__menu:nth-child(2) {
+  width: 55%;
+}
+.status-bar__menu:last-child {
+  width: 35%;
 }
 .status-bar__menu_tab {
+  display: inline-block;
   list-style-type: none;
-  float: left;
-  margin-left: 20px;
+  padding: 0px 10px;
+}
+.status-bar__menu_tab a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.status-bar__title span {
+  margin-right: 5px;
+  padding: 10px 10px;
+}
+.second__menu {
+  display: flex;
+  align-items: center; /*위아래 정렬*/
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+.second__menu_ {
+  margin-left: 10px;
+}
+.second__menu span {
+  margin-right: 10px;
+}
+.main-image__src {
+  width: 100%;
+}
+.status-bar__menu__kidprofile {
+  background-color: red;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+.status-bar__menu__kidout {
+  background-color: red;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: whitesmoke;
+}
+span {
+  color: aliceblue;
 }
