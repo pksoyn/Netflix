@@ -1,3 +1,8 @@
+.container {
+  position: relative;
+  display: block;
+}
+
 .status-bar__title span {
   font-size: 40px;
   margin-left: 20px;
@@ -10,6 +15,9 @@
   top: 0;
   left: 0;
   right: 0;
+}
+.bodymain {
+  display: flex;
 }
 .status-bar {
   display: flex;
@@ -83,11 +91,11 @@ span {
   color: aliceblue;
 }
 .main_view {
-  position: fixed;
+  position: absolute;
   top: 0;
-  width: 100%;
+  width: 35em;
   padding-top: 10em;
-  margin-left: 2em;
+  left: 4%;
 }
 .mainview {
   position: absolute;
@@ -132,10 +140,35 @@ span {
   color: black;
 }
 .main__img {
-  z-index: -1;
+  width: 100%;
 }
 .content-layer {
+  position: absolute;
+  top: 50%;
+  width: 100%;
 }
 .layer__title {
   color: aliceblue;
+}
+.slider__bar {
+  display: flex;
+  margin: 0;
+}
+.slider__layer {
+  width: 100%;
+}
+.slider__layer_row {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+.content-layer__rowlayer {
+  width: 100%;
+  height: 50%;
+}
+.slider__layer_row_item {
+  width: 25%;
+}
+.slider__img {
+  width: 14em;
 }
