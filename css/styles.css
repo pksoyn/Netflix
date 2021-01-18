@@ -1,5 +1,9 @@
 @import "mainhome.css";
+@import "statusbar.css";
+@import "bodyimage.css";
+@import "slider.css";
 body {
   background-color: black;
   width: 100%;
+  left: 0;
 }

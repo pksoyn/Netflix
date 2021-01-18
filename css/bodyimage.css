@@ -1,0 +1,75 @@
+.main__cat {
+  width: 100%;
+  z-index: -5;
+  height: 110%;
+}
+.main__img {
+  width: 100%;
+  height: 120%;
+}
+
+.main-image__src {
+  width: 100%;
+  height: 120%;
+}
+.ex {
+  position: absolute;
+  width: 100%;
+  height: 120%;
+
+  background: linear-gradient(
+    rgba(20, 20, 20, 0) 10%,
+    rgba(20, 20, 20, 0.1) 25%,
+    rgba(20, 20, 20, 0.4) 50%,
+    rgba(20, 20, 20, 0.75) 85%,
+    rgba(20, 20, 20, 0.9) 95%,
+    rgba(20, 20, 20, 1) 100%
+  );
+}
+
+.bodymain__view {
+  width: 100%;
+}
+.main_view {
+  position: absolute;
+  width: 35em;
+  padding-top: 10em;
+  left: 4%;
+}
+.mainview__title {
+  height: 70%;
+  width: 70%;
+}
+.mainview__info {
+  height: 70%;
+  width: 70%;
+}
+.mainview__title__img {
+  margin-left: 10px;
+  height: 100%;
+  width: 100%;
+}
+.mainview__info__write {
+  margin-right: 10px;
+  color: aliceblue;
+}
+.mainview__btn_info {
+  display: flex;
+  padding-top: 15px;
+}
+.mainview__btn_info_play__btn {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding-right: 30px;
+}
+.mainview__btn_info_detail__btn {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  padding-right: 30px;
+}
+.mainview__btn_info_play__btn__start {
+  list-style-type: none;
+  color: black;
+}
