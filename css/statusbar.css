@@ -32,7 +32,8 @@
   width: 10%;
 }
 .status-bar__menu:nth-child(2) {
-  width: 55%;
+  display: flex;
+  width: 100%;
 }
 .status-bar__menu:last-child {
   width: 35%;
