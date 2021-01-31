@@ -1,0 +1,33 @@
+.info {
+  padding-top: 20%;
+  text-align: center;
+  width: 100%;
+}
+.info__first {
+  display: flex;
+  top: 50%;
+  left: 50%;
+}
+.test {
+  display: flex;
+  padding-left: 30%;
+}
+.info__first_1 {
+  margin-right: 10%;
+}
+.info__first_2 {
+  margin-right: 10%;
+}
+.info__first_3 {
+  margin-right: 10%;
+}
+.info__first_4 {
+  margin-right: 10%;
+}
+.text {
+  font-size: 12px;
+  display: inline-block;
+  width: auto;
+  color: aliceblue;
+  padding-top: 3em;
+}

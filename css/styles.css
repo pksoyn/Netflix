@@ -2,6 +2,7 @@
 @import "statusbar.css";
 @import "bodyimage.css";
 @import "slider.css";
+@import "info.css";
 body {
   background-color: black;
   width: 100%;
